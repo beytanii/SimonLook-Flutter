@@ -14,6 +14,7 @@ class GamePlay extends StatefulWidget {
 }
 
 class _GamePlayState extends State<GamePlay> {
+  //  this will load everytime widgets gets called
   @override
   void initState() {
     if (widget.randoIndex.length < 4) {
@@ -25,6 +26,7 @@ class _GamePlayState extends State<GamePlay> {
     super.initState();
   }
 
+// generates an array everytime game starts
   _initialSeq() {
     while (widget.randoIndex.length < 4) {
       int randoNum = Random().nextInt(4);
@@ -32,6 +34,7 @@ class _GamePlayState extends State<GamePlay> {
     }
   }
 
+// translate random int array to slides
   List<String> _generateSlide(List<int> randoIndecis) {
     List<String> randoSeq = [];
 

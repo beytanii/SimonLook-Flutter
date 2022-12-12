@@ -12,6 +12,7 @@ class GameButton extends StatelessWidget {
     ValueNotifier<int> _scoreDisplay = ValueNotifier<int>(score);
     Widget scoreDisplay = const Text('score');
 
+// holders
     List<int> indexList = indecis;
     List<int> solution = [];
 

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:simon_look/gamebttn.dart';
-import 'gameplay.dart';
 import 'main.dart';
 
 class Gameover extends StatelessWidget {

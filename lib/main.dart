@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:simon_look/gameover.dart';
-// import 'package:simon_look/gamebttn.dart';
 import 'gameplay.dart';
 
 void main() {
